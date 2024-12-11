@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Практ 1 js</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="task">
+      <h3>Задание 1: Сохранение числа в переменную</h3>
+      <input type="number" id="number1" placeholder="Введите число" />
+      <button onclick="saveNumber()">Сохранить</button>
+      <p id="result1"></p>
+    </div>
+
+    <div class="task">
+      <h3>Задание 2: Калькулятор</h3>
+      <input type="number" id="calc1" placeholder="Первое число" />
+      <input type="number" id="calc2" placeholder="Второе число" />
+      <button onclick="calculate('+')">+</button>
+      <button onclick="calculate('-')">-</button>
+      <button onclick="calculate('*')">*</button>
+      <button onclick="calculate('/')">/</button>
+      <p id="result2"></p>
+    </div>
+
+    <div class="task">
+      <h3>Задание 3: Угадай число</h3>
+      <input type="number" id="guessNumber" placeholder="Введите число" />
+      <button onclick="checkNumber()">Проверить</button>
+      <p id="result3"></p>
+    </div>
+
+    <div class="task">
+      <h3>Задание 4: Вычисление возраста</h3>
+      <input type="text" id="userName" placeholder="Введите имя" />
+      <input type="number" id="birthYear" placeholder="Год рождения" />
+      <button onclick="calculateAge()">Вычислить возраст</button>
+      <p id="result4"></p>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
