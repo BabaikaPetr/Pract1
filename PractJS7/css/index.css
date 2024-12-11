@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Idealist";
+  src: url("../fonts/IdealistSans/Idealistsans.ttf") format("truetype");
+}
+
+body {
+  font-family: "Idealist", sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  background-color: #383838;
+}
+
+.task {
+  background-color: #8f8f8f;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.task h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  background-color: #d4d3d3;
+  border: 1px solid #ddd;
+  color: #2c2c2c;
+  border-radius: 4px;
+  width: 170px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #efefef;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #8f8f8f;
+  border-radius: 4px;
+  min-height: 20px;
+}
+
+/* Скрываем стрелки в полях ввода числа */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
